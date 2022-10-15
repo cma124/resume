@@ -8,9 +8,9 @@
 
 :root {
     --clr-primary: #000;
-    --clr-secondary: #C6A067;
-    --clr-light-bg: #F1F1F1;
-    --clr-light-gray: #B2B2B2;
+    --clr-secondary: #c6a067;
+    --clr-light-bg: #f1f1f1;
+    --clr-light-gray: #b2b2b2;
     --clr-dark-gray: #455560;
 }
 
@@ -66,7 +66,7 @@ li {
 /* General Settings */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: var(--clr-primary);
     padding: 1.5em 1em;
 }
@@ -184,7 +184,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 7px;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.3em;
 }
 
 .personal-project h4 {
@@ -200,7 +200,7 @@ footer {
 
 .tech-list {
     background-color: var(--clr-secondary);
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: bold;
     padding: 0.3em 0.7em;
     border-radius: 7px;
@@ -208,7 +208,7 @@ footer {
 
 /* Media Queries */
 @media screen and (min-width: 700px) {
-    :root{
+    :root {
         font-size: 1.1rem;
     }
 }
