@@ -83,8 +83,8 @@ svg {
     aspect-ratio: 1 / 1;
 }
 
-abbr:hover {
-    cursor: default;
+a {
+    text-underline-offset: 5px;
 }
 
 footer {
@@ -173,6 +173,17 @@ footer {
     margin-top: -0.3em;
 }
 
+.education a {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 2px;
+}
+
+.education img {
+    width: 30px;
+    align-self: center;
+}
+
 .projects {
     padding-bottom: 0.7em;
 }
@@ -186,15 +197,22 @@ footer {
     margin-bottom: 1.1em;
 }
 
-.personal-project {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    margin-bottom: 0.3em;
+.personal-project h4 {
+    margin-bottom: 0.15em;
 }
 
-.personal-project h4 {
-    margin-bottom: 0;
+.project-links {
+    margin-top: 13px;
+}
+
+.project-links a {
+    background-color: var(--clr-light-gray);
+    color: var(--clr-primary);
+    font-weight: bold;
+    padding: 0.3em 0.4em;
+    margin-right: 0.4em;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .tech-container {
